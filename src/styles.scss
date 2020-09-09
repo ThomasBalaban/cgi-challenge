@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import 'styles/map';
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 101%;
+    font-size: 10px;
+    line-height: 1.2;
+    background: $white2;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;;
+}
+
+body {
+    margin: 75px 0 0;
+}
